@@ -17,13 +17,13 @@
     "start": "sudo /usr/local/bin/xray run -c /etc/xray/g2ray.json"
   },
   "portsAttributes": {
-    "8060": {
+    "80": {
       "label": "g2ray",
       "protocol": "http",
       "onAutoForward": "silent"
     }
   },
-  "forwardPorts": [8060],
+  "forwardPorts": [80],
   "hostRequirements": {
     "cpus": 2
   }
